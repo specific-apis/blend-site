@@ -1,7 +1,7 @@
 <?php header('Content-type: image/svg+xml'); ?>
 
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
-  <foreignObject x="0" y="0" width="960px" height="850px">
+  <foreignObject x="0" y="0" width="800px" height="450px">
 		<style>
 			iframe {
 				width: 800px;

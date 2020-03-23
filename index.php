@@ -14,7 +14,7 @@
 				left: 0;
 			}
 			iframe#right {
-        -webkit-mask-image: linear-gradient(to left, black 50%, transparent 100%);
+        -webkit-mask-image: linear-gradient(to left, black 0, transparent 100%);
 			}
 		</style>
     <body xmlns="http://www.w3.org/1999/xhtml" style="margin: 0; padding: 0">

@@ -19,8 +19,8 @@
 		</style>
     <body xmlns="http://www.w3.org/1999/xhtml" style="margin: 0; padding: 0">
       <?php
-        echo '<iframe id="left" src="' . $_GET["left"] . '"></iframe>';
-        echo '<iframe id="right" src="' . $_GET["right"] . '"></iframe>';
+        echo '<iframe id="left" src="' . urldecode($_GET["left"]) . '"></iframe>';
+        echo '<iframe id="right" src="' . urldecode($_GET["right"]) . '"></iframe>';
       ?>
     </body>
   </foreignObject>

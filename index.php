@@ -20,7 +20,7 @@
     <body xmlns="http://www.w3.org/1999/xhtml" style="margin: 0; padding: 0">
       <?php
         echo '<iframe id="left" src="' . urldecode($_GET["left"]) . '"></iframe>';
-        echo '<iframe id="right" src="' . urldecode($_GET["right"]) . '#A_Web_of_Links"></iframe>';
+        echo '<iframe id="right" src="' . urldecode($_GET["right"]) . '#section04"></iframe>';
       ?>
     </body>
   </foreignObject>
